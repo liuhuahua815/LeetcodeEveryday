@@ -1,0 +1,44 @@
+@import 'normalize.css';
+:root {
+    --leetcode-color:  rgba(255, 161, 22, 1);
+    --light-leetcode-color: rgba(250, 236, 216, 1);
+    --verylight-leetcode-color: rgba(253, 246, 236, 1)
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
